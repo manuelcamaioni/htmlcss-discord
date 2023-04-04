@@ -55,7 +55,6 @@ header{
     background-repeat: no-repeat;
     background-size: 100% 100%;
     width: 100%;
-    height: 100%;
     color: white;
 }
 
@@ -166,7 +165,7 @@ footer h4, h5{
     padding: 30px 0;
 }
 
-.lower-description-box h3, .lower-description-box button{
+.lower-description-box button{
     margin: 15px 0;
 }
 
@@ -175,8 +174,13 @@ footer h4, h5{
 }
 
 .column-container h4{
-    font-size: 2em;
-    padding-bottom: 10px;
+    font-size: 1.5em;
+    
+}
+
+.column-container h5{
+    padding-top: 10px;
+    font-size: 1.1rem;
 }
 
 .column-container li{
@@ -198,7 +202,7 @@ footer li, .language{
     font-size: 1.2rem;
 }
 
-.column-container h4, .language-container, .social-logo-container{
+.language-container, .social-logo-container{
     padding-bottom: 20px;
 }
 
@@ -211,5 +215,3 @@ footer li, .language{
     width: 1rem;
     height: .7rem;
 }
-
-
