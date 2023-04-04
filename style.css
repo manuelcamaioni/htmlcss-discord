@@ -152,41 +152,11 @@ ul{
     flex-direction: row-reverse;
 }
 
-.fourth-section .big-block{
-    border-right: 3px dashed black;
-}
-
-.fifth-section .small-block{
-    border-right: 3px dashed black;
-}
-
-.seventh-section{
-    border-bottom: 2px solid white;
-}
-
-.seventh-section .small-block{
-    border-right: 3px dashed black;
-}
-
 footer{
     background-color: rgb(34, 34, 34);
     height: 100px;
 }
-/* 
-.eighth-section{
-    align-items: flex-end;
-} */
 
-.lightblue-container{
-    height: 50px;
-    background: lightblue;
-    justify-content: space-between;
-}
-
-/* .logo-footer, .button-footer{
-    width: 70px;
-    height: 25px;
-} */
 
 footer li, .language{
     list-style-type: none;
