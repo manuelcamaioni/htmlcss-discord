@@ -39,14 +39,12 @@ body{
     background-color: rgb(34, 34, 34);
 }
 
-.clearfix{
-    content:'';
-    display: table;
-    clear: both;
-}
-
 .discord-color{
     background-color: #8ea1e1;
+}
+
+.grey-bg{
+    background-color: #f6f6f6;
 }
 
 
@@ -60,16 +58,17 @@ header{
     height: 100%;
     color: white;
 }
+
 header ul{
     list-style-type: none;    
     column-gap: 15px;
 }
 
 button{
-    padding: 10px 15px;
+    padding: 12px 30px;
     border-radius: 20px;
     border: none;
-    font-size: 0.8em;
+    font-size:1em;
 }
 
 header button{
@@ -90,8 +89,17 @@ footer h4, h5{
     color: #8ea1e1
 }
 
-.top-bar, .bottom-bar{
+.third-section, .fourth-section, .fifth-section, .sixth-section{
+    padding: 50px 0;
+}
+
+.top-bar{
     padding: 30px 0;
+}
+
+.bottom-bar{
+    padding-top: 15px;
+    justify-content: space-between;
 }
 
 .login{
@@ -103,17 +111,9 @@ footer h4, h5{
     color: white;
 }
 
-.first-section{
-    height: 20%;
-}
-
 .second-section{
     height:100%;
 }
-
-/* .top-bar, .bottom-bar{
-    height: 50px;
-} */
 
 .logo, .login{
     width: 25%;
@@ -131,7 +131,7 @@ footer h4, h5{
 
 .first-container h1{
     padding: 50px 0;
-    font-size: 2.5rem;
+    font-size: 3rem;
 }
 
 .first-container p{
@@ -145,9 +145,8 @@ footer h4, h5{
     padding: 0 0 100px 0;
 }
 
-
-.fourth-section, .sixth-section{
-    background-color: #c4c4c4;
+.social-logo-container img{
+    height: 1.5rem;
 }
 
 .fourth-section > .box-type-1{
@@ -158,11 +157,16 @@ footer h4, h5{
     text-align: center;
 }
 
+.column-container{
+    padding-top: 50px;
+    justify-content: space-between;
+}
+
 .lower-description-box{
     padding: 30px 0;
 }
 
-.lower-description-box h3, button{
+.lower-description-box h3, .lower-description-box button{
     margin: 15px 0;
 }
 
@@ -170,23 +174,42 @@ footer h4, h5{
     font-size: 1.5rem;
 }
 
+.column-container h4{
+    font-size: 2em;
+    padding-bottom: 10px;
+}
+
+.column-container li{
+    font-size: 1.1em;
+    padding-bottom: 10px
+}
+
 footer{
     background-color: rgb(34, 34, 34);
     height: 100px;
 }
-
 
 footer li, .language{
     list-style-type: none;
     color: white;
 }
 
+.language{
+    font-size: 1.2rem;
+}
+
+.column-container h4, .language-container, .social-logo-container{
+    padding-bottom: 20px;
+}
+
+.social-logo-container img{
+    padding-right: 20px;
+}
+
+
 .language-container img{
     width: 1rem;
     height: .7rem;
 }
 
-.bottom-bar{
-    justify-content: space-between;
-}
 
