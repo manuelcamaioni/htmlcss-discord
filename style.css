@@ -41,7 +41,7 @@
 /* .box-type-1{
     width: 1000px;
     height: 400px;
-} */
+}  */
 
 .box-type-2{
     width: 1000px;
@@ -143,21 +143,6 @@ ul{
     padding: 0 0 100px 0;
 }
 
-/* .third-section img{
-    width: 75%;
-    height: 75%;
-    float: left;
-}
-
-.third-section .description-box{
-    width: 25%;
-    height: 100%;
-    float: left;
-} */
-
-.third-section .small-block{
-    border-right: 3px dashed black;
-}
 
 .fourth-section > .box-type-1{
     flex-direction: row-reverse;
