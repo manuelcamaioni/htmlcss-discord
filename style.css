@@ -84,9 +84,25 @@ p{
     font-size: 1.5rem;
 }
 
+footer{
+    background-color: rgb(34, 34, 34);
+    height: 100px;
+}
+
+footer li, .language{
+    list-style-type: none;
+    color: white;
+}
+
 footer h4, h5{
     color: #8ea1e1
 }
+
+footer li, .language{
+    list-style-type: none;
+    color: white;
+}
+
 
 .third-section, .fourth-section, .fifth-section, .sixth-section{
     padding: 50px 0;
@@ -157,7 +173,7 @@ footer h4, h5{
 }
 
 .column-container{
-    padding-top: 50px;
+    padding: 50px 0;
     justify-content: space-between;
 }
 
@@ -171,11 +187,20 @@ footer h4, h5{
 
 .lower-description-box h3{
     font-size: 1.5rem;
+    padding-top: 20px;
+    background-image: url(img/stars.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    text-align: center;
 }
 
-.column-container h4{
-    font-size: 1.5em;
-    
+.column-1{
+    width: 30%;
+}
+
+div.column-1 h4{
+    font-size: 2em;    
 }
 
 .column-container h5{
@@ -186,16 +211,6 @@ footer h4, h5{
 .column-container li{
     font-size: 1.1em;
     padding-bottom: 10px
-}
-
-footer{
-    background-color: rgb(34, 34, 34);
-    height: 100px;
-}
-
-footer li, .language{
-    list-style-type: none;
-    color: white;
 }
 
 .language{
@@ -209,7 +224,6 @@ footer li, .language{
 .social-logo-container img{
     padding-right: 20px;
 }
-
 
 .language-container img{
     width: 1rem;
